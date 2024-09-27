@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  flex-direction: column;
+}
+.user-form {
+  height: min-content;
+  width: 500px;
+  border-radius: 10px;
+  border: 2px solid rgb(152, 130, 130);
+  margin: 20px;
+  padding: 16px 10px;
+  box-shadow: 10px 10px 5px lightblue;
+}
+
+.user-form form {
+  /* border: 2px solid red; */
+  width: 100%;
+
+  padding: 20px 16px;
+}
+form label {
+  font-size: 25px;
+  margin: 20px 15px;
+  font-weight: 400;
+}
+.user-details {
+  margin-bottom: 20px;
+}
+form input {
+  width: 280px;
+  outline: none;
+  padding: 8px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: 1px solid rgb(128, 120, 120);
+}
+.login-btn {
+  border: none;
+  outline: none;
+  margin: 16px;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(234, 51, 51);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.login-btn:hover {
+  background-color: rgb(183, 45, 45);
+  color: #fff;
+}
+/* dash-bard page css */
+
+.dash-board {
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.dash-nav {
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid rgb(109, 121, 130);
+}
+.dash-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.dash-nav ul li {
+  list-style: none;
+  font-size: 20px;
+  color: black;
+  padding-top: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.dash-admin {
+  height: 500px;
+  width: 430px;
+  margin: 60px auto;
+  border: 1px solid rgb(218, 204, 204);
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px lightblue;
+  padding: 30px;
+}
+
+.dash-admin h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.dash-admin h2 {
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+.create-emp-btn {
+  height: 40px;
+  width: 170px;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  background-color: rgb(234, 51, 51);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.create-emp-btn:hover {
+  background-color: rgb(109, 30, 30);
+}
+
+/* createEmp  */
+.form-details {
+  width: 500px;
+  height: 400px;
+  padding: 10px 16px;
+  border: 2px solid rgb(89, 134, 173);
+  border-radius: 8px;
+}
+.form-data {
+  margin-top: 10px;
+}
+form label {
+  font-size: 20px;
+  margin-top: 5px;
+  margin-left: 0;
+  font-weight: normal;
+  color: rgb(65, 59, 59);
+}
+form input {
+  color: rgb(65, 59, 59);
+  font-size: 12px;
+  height: 30px;
+  width: 250px;
+}
+select {
+  height: 25px;
+  width: 220px;
+  color: rgb(65, 59, 59);
+  font-size: 12px;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+}
+option {
+  color: rgb(65, 59, 59);
+  outline: none;
+  background-color: aliceblue;
+}
+.img-file {
+  height: 30px;
+  padding: 5px;
+}
+span {
+  color: red;
+}
